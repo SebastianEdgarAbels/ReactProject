@@ -97,11 +97,11 @@ export default function ButtonAppBar() {
             />
           </IconButton>
           <Menu
-            id="basic-menu"
+            id="basic-div"
             anchorEl={anchorEl}
             open={open}
             onClose={handleClose}
-            MenuListProps={{
+            divListProps={{
               "aria-labelledby": "basic-button",
             }}
           >
@@ -127,7 +127,7 @@ export default function ButtonAppBar() {
                   My account
                 </MenuItem>
                 <MenuItem
-                  onClick={logout()}
+                  onClick={logout}
                   style={{ textDecoration: "none", color: "green" }}
                 >
                   Logout
