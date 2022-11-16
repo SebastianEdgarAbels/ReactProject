@@ -1,0 +1,12 @@
+.imgList {
+  display: flex;
+  /* text-align: ; */
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  justify-content: center;
+}
+
+.img12 {
+  width: 200px;
+  height: 164px;
+}

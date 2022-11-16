@@ -1,0 +1,114 @@
+/* .css-ta95xa-MuiImageListItem-root .MuiImageListItem-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+} */
+
+.containerView {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". img main main ."
+    ". img aditionalInfo aditionalInfo ."
+    ". img screenshots screenshots ."
+    ". img systemRequirements systemRequirements ."
+    ". img user-Reviews user-Reviews .";
+  grid-gap: 0.2rem;
+}
+main p {
+  margin: 5px;
+  text-align: justify;
+  text-indent: 10%;
+}
+* h3,
+h5,
+p {
+  color: #009688;
+}
+
+#img {
+  background: #282c34;
+  grid-area: img;
+  margin-bottom: 13px;
+}
+.starButtonAndLike {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+}
+.starButtContainer {
+  display: flex;
+  align-self: center;
+}
+
+main {
+  background: #282c34;
+  grid-area: main;
+  margin-bottom: 13px;
+}
+#aditionalInfo {
+  background: #282c34;
+  grid-area: aditionalInfo;
+  margin-bottom: 13px;
+}
+.aditionalInfoFlex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 10px;
+}
+#screenshots {
+  background: #282c34;
+  grid-area: screenshots;
+  margin-bottom: 13px;
+}
+
+#systemRequirements {
+  background: #282c34;
+  grid-area: systemRequirements;
+  margin-bottom: 13px;
+}
+.minSysReqFlex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 10px;
+}
+#user-Reviews {
+  background: #282c34;
+  grid-area: user-Reviews;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.sendImg {
+  display: flex;
+  align-self: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .containerView {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr 3fr 1fr 2fr 2fr;
+    grid-template-areas:
+      "img"
+      "main"
+      "aditionalInfo"
+      "screenshots"
+      "systemRequirements"
+      "user-Reviews";
+  }
+
+  .screenshotImg {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+}

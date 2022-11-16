@@ -1,0 +1,12 @@
+.nav {
+  background-color: rgba(49, 208, 211, 0.949);
+  height: 3rem;
+}
+
+/* .searchBar {
+  visibility: hidden;
+} */
+.StyledInputBase {
+  display: flex;
+  align-self: right;
+}

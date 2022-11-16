@@ -1,0 +1,23 @@
+/* @media screen and (max-width: 64rem) {
+  .Image {
+    width: 300;
+    height: 550;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .Image {
+    width: 200;
+    height: 250;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 27rem) {
+  .Image {
+    /* width: 200;
+    height: 250; */
+    background-size: contain;
+  }
+} */
