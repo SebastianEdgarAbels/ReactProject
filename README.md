@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Because of the CORS Policy and because heroku isn't free anymore it doesn't work anymore and can't change it to static like save the data in api because I would have to do it for each id. So I will remake this project with an other API. More on it will published also here when and which is it.
 
 ## Available Scripts
 
